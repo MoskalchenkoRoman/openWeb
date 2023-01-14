@@ -1,0 +1,22 @@
+body { 
+    background-color: mediumspringgreen;
+}
+h1 {
+    color: greenyellow;
+    font-family: 'GOGOIA';
+}
+.x {
+    font-size: 1.5em;
+}
+.y {
+    color:brown;
+}
+@font-face {
+	font-family: 'GOGOIA';
+	src: url('fonts/gogoia.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/gogoia.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/gogoia.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/gogoia.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/gogoia.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/gogoia.svg#gogoia') format('svg'); /* Chrome < 4, Legacy iOS */
+}
